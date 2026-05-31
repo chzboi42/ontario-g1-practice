@@ -555,4 +555,136 @@ const g1QuestionsDatabase = [
         correct: "Within 30 metres.",
         explanation: "To ensure the safety of pedestrians crossing the roadway, you must not pass any vehicle within 30 metres of a pedestrian crossover."
     },
+    {
+        question: "When waiting in an intersection to make a left turn, which way should your front wheels be pointed?",
+        options: [
+            "To the left, anticipating the turn.",
+            "Straight ahead.",
+            "To the right, to stay close to the curb.",
+            "It does not matter as long as your foot is on the brake."
+        ],
+        correct: "Straight ahead.",
+        explanation: "Never turn your steering wheel to the left until you are ready to complete the turn. If your wheels are turned left while stopped and you are hit from behind, your vehicle could be pushed into oncoming traffic."
+    },
+    {
+        question: "Which lane should you use when entering a roundabout if you intend to turn left at one of the exits?",
+        options: [
+            "The right lane.",
+            "The left lane.",
+            "Either the left or right lane.",
+            "The shoulder or apron lane."
+        ],
+        correct: "The left lane.",
+        explanation: "As you approach a roundabout, you choose your lane just like a regular intersection. Use the left lane to turn left or go straight. Never enter from the right lane if you want to turn left."
+    },
+    {
+        question: "If an emergency vehicle approaches while you are driving inside a roundabout, what should you do?",
+        options: [
+            "Stop immediately inside the roundabout to let them pass.",
+            "Exit at your intended exit and proceed beyond the traffic island before pulling over.",
+            "Accelerate to stay ahead of the emergency vehicle.",
+            "Pull over onto the central island apron inside the roundabout."
+        ],
+        correct: "Exit at your intended exit and proceed beyond the traffic island before pulling over.",
+        explanation: "If you are already inside a roundabout when an emergency vehicle approaches, do not stop inside. Exit at your intended exit first, clear the traffic island, and then pull over to the right."
+    },
+    {
+        question: "On which type of road is it illegal to drive a vehicle in reverse, including on the shoulder?",
+        options: [
+            "Any road inside a city, town, or village.",
+            "A one-way street.",
+            "A divided road with a speed limit of more than 80 km/h.",
+            "A school zone during school hours."
+        ],
+        correct: "A divided road with a speed limit of more than 80 km/h.",
+        explanation: "It is illegal to drive in reverse on a divided road that has a speed limit of more than 80 km/h. This applies to both the travelled lanes and the shoulder, unless you are assisting someone in trouble."
+    },
+    {
+        question: "When performing a U-turn or a three-point turn, you must be able to see at least how far in both directions?",
+        options: [
+            "50 metres.",
+            "100 metres.",
+            "150 metres.",
+            "200 metres."
+        ],
+        correct: "150 metres.",
+        explanation: "It is illegal to make a U-turn or a three-point turn on curves, hills, or near railway crossings/tunnels that block your view. You must have a clear view of at least 150 metres in both directions."
+    },
+    {
+        question: "When performing a three-point turn, what is the correct sequence of actions after pulling over to the far right side of the road?",
+        options: [
+            "Signal right, back up across the road, shift to forward gear, and drive away.",
+            "Signal left and drive forward sharply left; stop, shift to reverse and signal right while backing up; stop, shift to forward gear and drive away.",
+            "Signal left, reverse sharply to the left curb, shift to forward gear, and turn right.",
+            "Drive forward to the left curb, back up straight without signaling, and turn sharply left."
+        ],
+        correct: "Signal left and drive forward sharply left; stop, shift to reverse and signal right while backing up; stop, shift to forward gear and drive away.",
+        explanation: "A three-point turn starts from the far right side of the road. You signal left and turn sharply left to the opposite curb. Then, you shift into reverse, signal right, and back up toward the other side. Finally, you shift to a forward gear and drive away when the way is clear."
+    },
+    {
+        question: "When passing a vehicle, when is it safe to signal and move back into your original lane?",
+        options: [
+            "As soon as you clear the other vehicle's front bumper.",
+            "When you can see the entire front of the vehicle you passed in your inside rearview mirror.",
+            "When the driver behind you flashes their headlights.",
+            "After you have driven at least three car lengths ahead."
+        ],
+        correct: "When you can see the entire front of the vehicle you passed in your inside rearview mirror.",
+        explanation: "To ensure you do not cut off the vehicle you just passed, you must wait until you can see their entire front end in your inside rearview mirror before signaling and steering back into the lane."
+    },
+    {
+        question: "Under what conditions are you allowed to drive on the right shoulder to pass another vehicle?",
+        options: [
+            "Whenever traffic is heavy and the vehicle in front is moving too slowly.",
+            "Only to pass a vehicle turning left, and only if the shoulder is paved.",
+            "To pass any turning vehicle, whether the shoulder is paved or gravel.",
+            "It is never legal to drive or pass on the shoulder."
+        ],
+        correct: "Only to pass a vehicle turning left, and only if the shoulder is paved.",
+        explanation: "In Ontario, you may drive on the right shoulder only to pass a vehicle that is turning left, and this is only permitted if the shoulder is completely paved. Passing on the left shoulder is always illegal."
+    },
+    {
+        question: "When a streetcar is stopped to pick up or drop off passengers where there is no safety zone, how much space must you leave?",
+        options: [
+            "Stop at least two metres behind the rear doors of the streetcar.",
+            "Stop at least five metres behind the front doors of the streetcar.",
+            "Pass on the left side with one metre of clearance.",
+            "Slow down to 10 km/h and pass carefully on the right."
+        ],
+        correct: "Stop at least two metres behind the rear doors of the streetcar.",
+        explanation: "At streetcar stops without a designated passenger safety island, you must stop at least two metres behind the rear doors where passengers are getting on or off."
+    },
+    {
+        question: "What are the correct distance rules when parking near a fire hydrant or an intersection controlled by traffic lights?",
+        options: [
+            "Do not park within 3 metres of a fire hydrant or within 15 metres of a traffic-light controlled intersection.",
+            "Do not park within 5 metres of a fire hydrant or within 9 metres of a traffic-light controlled intersection.",
+            "Do not park within 6 metres of a fire hydrant or within 15 metres of a traffic-light controlled intersection.",
+            "Do not park within 3 metres of a fire hydrant or within 30 metres of a traffic-light controlled intersection."
+        ],
+        correct: "Do not park within 3 metres of a fire hydrant or within 15 metres of a traffic-light controlled intersection.",
+        explanation: "According to basic parking rules, you must not park within 3 metres of a fire hydrant, and you must not park within 15 metres of an intersection if it is controlled by traffic lights."
+    },
+    {
+        question: "When parking facing uphill next to a curb, how should you position your vehicle's front wheels?",
+        options: [
+            "Turn the front wheels sharply to the right (toward the curb).",
+            "Keep the front wheels straight ahead.",
+            "Turn the front wheels to the left (toward the road).",
+            "It does not matter as long as the parking brake is set."
+        ],
+        correct: "Turn the front wheels to the left (toward the road).",
+        explanation: "When facing uphill with a curb, turning the steering wheel to the left causes the tires to catch the curb and prevent the vehicle from rolling backward into traffic if the brakes fail."
+    },
+    {
+        question: "When pulling over for a short roadside stop, what is the maximum allowable distance your vehicle should be from the curb or edge of the road?",
+        options: [
+            "No more than 15 centimetres away.",
+            "No more than 30 centimetres away.",
+            "No more than 45 centimetres away.",
+            "No more than 60 centimetres away."
+        ],
+        correct: "No more than 30 centimetres away.",
+        explanation: "When steering to the side of the road for a short stop, you should steadily reduce speed and bring your vehicle to a stop parallel to and within approximately 30 centimetres of the curb or edge."
+    },
 ];
