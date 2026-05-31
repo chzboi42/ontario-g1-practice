@@ -61,12 +61,6 @@ const g1QuestionsDatabase = [
         explanation: "Drivers can be fined up to $500 and get 3 demerit points for not abiding with this law."
     },
     {
-        question: "Snowplows flash primarily what colour?",
-        options: ["Amber", "Blue", "White", "Red"],
-        correct: "Blue",
-        explanation: "While they technically also flash amber, their lights are mainly blue."
-    },
-    {
         question: "Which statement is correct regarding red lights?",
         options: [
             "You may turn right on a red light, unless otherwise posted, provided you stop first.",
@@ -373,5 +367,192 @@ const g1QuestionsDatabase = [
         ],
         correct: "Reversing",
         explanation: "Drivers may remove their seatbelt while reversing in order to look behind them."
-    }
+    },
+    {
+        question: "How often do you have to renew your driver's license?",
+        options: [
+            "Every 3 years",
+            "You don't need to, as you already have passed.",
+            "Every 5 years.",
+            "Every 10 years."
+        ],
+        correct: "Every 5 years.",
+        explanation: "You will receive a renewal application or renewal postcard in the mail before your licence expires. If you do not, you are still responsible for ensuring you have a valid driver's license that has not expired."
+    },
+{
+        question: "When checking for a proper driving position, how far in front of the vehicle should you be able to see the ground?",
+        options: [
+            "2 metres.",
+            "4 metres.",
+            "6 metres.",
+            "10 metres."
+        ],
+        correct: "4 metres.",
+        explanation: "You should sit high enough in the driver’s seat to see over the steering wheel and hood, allowing you to see the ground four metres in front of the vehicle."
+    },
+    {
+        question: "An infant weighing less than 9 kg (20 lbs.) must be secured in which type of child car seat?",
+        options: [
+            "A booster seat with a lap belt.",
+            "A forward-facing child car seat with a tether strap.",
+            "A rear-facing child car seat attached by a seatbelt or UAS strap.",
+            "An adult seatbelt in the back seat."
+        ],
+        correct: "A rear-facing child car seat attached by a seatbelt or UAS strap.",
+        explanation: "Infants who weigh less than 9 kilograms (20 lbs.) must be buckled into a rear-facing child car seat, which is always best installed in the back seat."
+    },
+    {
+        question: "What is the correct way to adjust your side mirrors to minimize blind spots?",
+        options: [
+            "Adjust them so you can see half of your own vehicle at all times.",
+            "Lean towards the window for the left mirror, and lean to the centre for the right mirror, adjusting until you can just see the rear of your car.",
+            "Point them straight down toward the rear tires.",
+            "Adjust them so they show the exact same view as your interior rearview mirror."
+        ],
+        correct: "Lean towards the window for the left mirror, and lean to the centre for the right mirror, adjusting until you can just see the rear of your car.",
+        explanation: "Leaning while adjusting helps spread out the mirrors' angles to avoid overlap, though turning your head for a shoulder check is still the only way to be 100% sure your blind spots are clear."
+    },
+    {
+        question: "When following behind another vehicle, you must switch from high-beam to low-beam headlights when you are within:",
+        options: [
+            "30 metres.",
+            "60 metres.",
+            "150 metres.",
+            "200 metres."
+        ],
+        correct: "60 metres.",
+        explanation: "You must switch to low beams within 150 metres of an oncoming vehicle, and when you are less than 60 metres behind another vehicle you are following."
+    },
+    {
+        question: "How often should you check your mirrors as part of a safe driving routine?",
+        options: [
+            "Every 5 seconds or so.",
+            "Every 15 seconds.",
+            "Only when changing lanes.",
+            "Every 30 seconds."
+        ],
+        correct: "Every 5 seconds or so.",
+        explanation: "Always be aware of traffic around you. Develop a routine for looking ahead, behind, and from side to side, which includes checking your mirrors every five seconds or so."
+    },
+    {
+        question: "When a police officer requests your documents during a traffic stop, how long do you have to present them?",
+        options: [
+            "You have 24 hours to bring them to a police station.",
+            "You must surrender them immediately upon request.",
+            "You have 48 hours if you have a clean driving record.",
+            "You only need to show your digital driver's licence within 12 hours."
+        ],
+        correct: "You must surrender them immediately upon request.",
+        explanation: "Contrary to popular belief, you do not have 24 hours to present your driver's licence, vehicle permit, and insurance. You must surrender them immediately upon the police officer's request."
+    },
+    {
+        question: "Under ideal driving conditions, what is the minimum safe following distance behind another vehicle?",
+        options: [
+            "At least one second.",
+            "At least two seconds.",
+            "At least three seconds.",
+            "At least four seconds."
+        ],
+        correct: "At least two seconds.",
+        explanation: "A safe following distance under ideal conditions is at least two seconds behind the vehicle in front of you. You can measure this using a fixed roadside marker."
+    },
+    {
+        question: "When a municipal bus in a bus bay has its left-turn signal flashing to indicate it is ready to re-enter traffic, what must you do if you are in the adjacent lane?",
+        options: [
+            "Maintain your speed and pass the bus quickly.",
+            "Sound your horn to warn the bus driver you are there.",
+            "Yield the right-of-way and allow the bus to re-enter traffic.",
+            "Change lanes to the left immediately without slowing down."
+        ],
+        correct: "Yield the right-of-way and allow the bus to re-enter traffic.",
+        explanation: "When a bus in a bus bay begins flashing its left-turn signals, indicating that it is ready to leave the bus bay, drivers approaching in the lane adjacent to the bus bay must allow the bus to re-enter traffic."
+    },
+    {
+        question: "What does an orange and red triangular sign on the rear of a vehicle mean?",
+        options: [
+            "The vehicle is carrying dangerous goods.",
+            "The vehicle is a slow-moving vehicle travelling at 40 km/h or less.",
+            "The vehicle has broken down and is waiting for a tow truck.",
+            "The vehicle has wide or oversized cargo."
+        ],
+        correct: "The vehicle is a slow-moving vehicle travelling at 40 km/h or less.",
+        explanation: "Farm machinery and horse-drawn vehicles must display an orange and red slow-moving vehicle sign on the rear. This warns other drivers that the vehicle travels at a maximum speed of 40 km/h or less."
+    },
+    {
+        question: "When a school bus is stopped with its overhead amber lights flashing, what should approaching drivers do?",
+        options: [
+            "Speed up to pass the bus before the red lights come on.",
+            "Slow down and prepare to stop.",
+            "Stop immediately, even if the red lights are not flashing yet.",
+            "Maintain their current speed and drive past with caution."
+        ],
+        correct: "Slow down and prepare to stop.",
+        explanation: "Flashing overhead amber lights indicate that the school bus is coming to a stop to pick up or drop off passengers. Drivers must slow down and prepare to stop."
+    },
+    {
+        question: "At an intersection with stop signs at all four corners, two vehicles come to a complete stop at the exact same time. Who must yield the right-of-way?",
+        options: [
+            "The vehicle on the right must yield to the vehicle on the left.",
+            "The vehicle on the left must yield to the vehicle on the right.",
+            "The larger vehicle has the right-of-way.",
+            "The vehicle going straight must yield to the vehicle turning left."
+        ],
+        correct: "The vehicle on the left must yield to the vehicle on the right.",
+        explanation: "At an all-way stop, if two vehicles stop at the same time, the driver on the left must yield the right-of-way to the driver on the right."
+    },
+    {
+        question: "What must you do when entering a public road from a private road or a driveway?",
+        options: [
+            "Maintain your speed and merge quickly into traffic.",
+            "Yield the right-of-way only to vehicles on the road, as pedestrians must wait for you.",
+            "Yield the right-of-way to both vehicles on the road and pedestrians on the sidewalk.",
+            "Sound your horn to alert others that you are exiting the driveway."
+        ],
+        correct: "Yield the right-of-way to both vehicles on the road and pedestrians on the sidewalk.",
+        explanation: "When entering a road from a private road or driveway, you must yield the right-of-way to any oncoming vehicles on the road as well as pedestrians crossing across your path on the sidewalk."
+    },
+    {
+        question: "If there is no marked stop line or crosswalk at a red light or stop sign, where must you bring your vehicle to a stop?",
+        options: [
+            "At the edge of the sidewalk.",
+            "Two metres past the intersection edge.",
+            "Wherever you have the best view of cross traffic.",
+            "Directly in the middle of the intersection."
+        ],
+        correct: "At the edge of the sidewalk.",
+        explanation: "If there is no stop line, stop at the crosswalk (marked or not). If there is no crosswalk, stop at the edge of the sidewalk. If there is no sidewalk, stop at the edge of the intersection."
+    },
+    {
+        question: "When a train is approaching a railway crossing, you must stop your vehicle at least how far from the nearest rail or gate?",
+        options: [
+            "At least 2 metres away.",
+            "At least 5 metres away.",
+            "At least 15 metres away.",
+            "At least 20 metres away."
+        ],
+        correct: "At least 5 metres away.",
+        explanation: "If a train is coming, you must stop at least five metres from the nearest rail or gate, and you must not cross until you are certain the train or trains have completely passed."
+    },
+    {
+        question: "What is the penalty for a first offence of failing to stop for a stopped school bus with its red lights flashing?",
+        options: [
+            "A substantial fine and 2 demerit points.",
+            "A substantial fine and 3 demerit points.",
+            "A heavy fine and 6 demerit points.",
+            "An immediate 90-day roadside licence suspension."
+        ],
+        correct: "A heavy fine and 6 demerit points.",
+        explanation: "It is illegal and highly dangerous to pass a stopped school bus with its red lights flashing. A first offence results in a heavy fine and 6 demerit points."
+    },
+    {
+        question: "When approaching a pedestrian crossover, within how many metres is it illegal to pass another vehicle?",
+        options: [
+            "Within 10 metres.",
+            "Within 20 metres.",
+            "Within 30 metres.",
+            "Within 50 metres."
+        ],
+        correct: "Within 30 metres.",
+        explanation: "To ensure the safety of pedestrians crossing the roadway, you must not pass any vehicle within 30 metres of a pedestrian crossover."
+    },
 ];
